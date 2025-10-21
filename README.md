@@ -6,32 +6,30 @@ Persyaratan dan Langkah untuk instalasi proyek.
 
 Sebelum mulai, pastikan komputer kamu sudah memiliki:
 
-PHP ≥ 8.1
+    PHP ≥ 8.1
 
-Composer (untuk install dependency PHP)
+    Composer (untuk install dependency PHP)
 
-Database (MySQL, MariaDB, PostgreSQL, SQLite, dll.)
+    Database (MySQL)
 
-Node.js + npm (jika ingin menjalankan frontend)
-
-Git (untuk clone project)
+    Git (untuk clone project)
 
 2. Clone Project
 
-git clone https://github.com/sabarmartua/bookstore-app.git
+    git clone https://github.com/sabarmartua/bookstore-app.git
 
 3. Install Dependencies (Jika belum ada)
 
-composer install
+    composer install
 
 4. Konfigurasi Database
 
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3308
-DB_DATABASE=bookstoreapp
-DB_USERNAME=root
-DB_PASSWORD=
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3308
+    DB_DATABASE=bookstoreapp
+    DB_USERNAME=root
+    DB_PASSWORD=
 
 5.  Migrasi dan Seed Database
    php artisan migrate
@@ -41,4 +39,4 @@ DB_PASSWORD=
 
    php artisan serve
 
-PROYEK SIAP UNTUK DIGUNAKAN
+PROYEK SIAP UNTUK DIGUNAKAN, TERIMAKASIH
