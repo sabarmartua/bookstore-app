@@ -40,9 +40,9 @@ Sebelum mulai, pastikan komputer kamu sudah memiliki:
 
 6.  Migrasi dan Seed Database
 
-   php artisan migrate
-   
-   php artisan db:seed
+       php artisan migrate
+       
+       php artisan db:seed
 
 7. Jalankan Server Laravel
 
