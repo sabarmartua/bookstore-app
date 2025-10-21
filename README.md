@@ -23,19 +23,28 @@ Sebelum mulai, pastikan komputer kamu sudah memiliki:
     composer install
 
 4. Konfigurasi Database
+   
 
     DB_CONNECTION=mysql
+   
     DB_HOST=127.0.0.1
+   
     DB_PORT=3308
+   
     DB_DATABASE=bookstoreapp
+   
     DB_USERNAME=root
+   
     DB_PASSWORD=
+   
 
-5.  Migrasi dan Seed Database
+6.  Migrasi dan Seed Database
+
    php artisan migrate
+   
    php artisan db:seed
 
-6. Jalankan Server Laravel
+7. Jalankan Server Laravel
 
    php artisan serve
 
